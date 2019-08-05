@@ -7,9 +7,11 @@
 echo
 echo "This script will run basic administrative commands"
 echo
-top
+top | head -10
 echo
 df -h
+echo
+free -m 
 echo
 uptime
 echo
